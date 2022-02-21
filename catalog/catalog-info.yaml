@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: config-service
+  annotations:
+    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=config-service"
+spec:
+  type: service
+  lifecycle: experimental
+  owner: default-team
