@@ -5,7 +5,7 @@
 	<artifactId>config-service</artifactId>
 	<version>8.0.4</version>
 	<packaging>jar</packaging>
-	<name>NHIN Direct Java RI config service spring boot application</name>
+	<name>config-service</name>
     <description>NHIN Direct Java RI config service spring boot application</description>	
     <url>http://api.nhindirect.org/x/www/api.nhindirect.org/java/site/config/config-service-jar/${project.version}</url>  
 	<scm>
