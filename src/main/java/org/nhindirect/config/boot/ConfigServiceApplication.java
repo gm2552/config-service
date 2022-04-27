@@ -16,7 +16,7 @@ public class ConfigServiceApplication
 {	
     public static void main(String[] args) 
     {
-    	final SpringApplication app =  new SpringApplication(ConfigServiceApplication.class);
+    	SpringApplication app =  new SpringApplication(ConfigServiceApplication.class);
     	app.setWebApplicationType(WebApplicationType.REACTIVE);
     	app.run(args);
     }  
